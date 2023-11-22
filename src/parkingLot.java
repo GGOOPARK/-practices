@@ -4,12 +4,12 @@ import java.util.Queue;
 import java.util.Scanner;
 
 public class parkingLot {
-    private Queue<Integer>[] parkingFloors; // Queue 배열 생성
+    private Queue<Integer>[] parkingFloors; 
 
     public parkingLot() {
-        parkingFloors = new Queue[5]; // 5개의 선반 생성
+        parkingFloors = new Queue[5]; 
         for (int i = 0; i < 5; i++) {
-            parkingFloors[i] = new LinkedList<>(); // LinkedList로 Queue 생성
+            parkingFloors[i] = new LinkedList<>(); 
         }
     }
 
